@@ -220,8 +220,8 @@ class CardDetails implements ModelInterface, ArrayAccess
     public function getWalletTypeAllowableValues()
     {
         return [
-            self::WALLET_TYPE_APPLE_PAY
-            self::WALLET_TYPE_GOOGLE_PAY
+            self::WALLET_TYPE_APPLE_PAY,
+            self::WALLET_TYPE_GOOGLE_PAY,
         ];
     }
 
